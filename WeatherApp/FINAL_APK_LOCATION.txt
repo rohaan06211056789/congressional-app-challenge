@@ -1,0 +1,34 @@
+# Final APK Location
+
+## Debug APK
+Location: android/app/build/outputs/apk/debug/app-debug.apk
+Size: ~54 MB
+
+Absolute path:
+/Users/maulin.gajjar/workspace/sandbox/TestApp/WeatherApp/android/app/build/outputs/apk/debug/app-debug.apk
+
+## Install Instructions
+
+### Option 1: Via ADB
+```bash
+cd WeatherApp/android
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
+### Option 2: Manual Install
+1. Transfer the APK to your Android device
+2. Enable "Install from Unknown Sources" in Settings
+3. Tap the APK file to install
+
+### Option 3: Build from Source
+```bash
+cd WeatherApp
+npm install
+npm run android
+```
+
+## Project Archive
+Complete source code archive: WeatherApp-Complete.zip (306 KB)
+Contains all source files, configurations, and documentation needed to rebuild the project.
+
+
